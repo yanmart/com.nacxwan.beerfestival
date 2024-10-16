@@ -1,0 +1,67 @@
+ body 
+{
+    background-color: #f9f3e2;
+    color: #333;
+}
+
+h1 
+{
+    color: #d68a3f;
+}
+
+footer 
+{
+	position: absolute; 
+	bottom: 0;
+}
+
+header
+{
+	display: flex;
+	flex-direction: row;
+	background-color: bisque;
+}
+
+.title_navbar
+{
+	padding: 10px 20px;
+	font-size: xx-large;
+	color: rgb(128,0,128);
+}
+
+.navbar
+{
+	position: absolute;
+	right: 0px;
+    padding: 10px 20px;
+}
+
+.filter-input 
+{
+    margin-bottom: 20px;
+    border: 1px solid #d68a3f;
+    border-radius: 5px;
+}
+
+.table 
+{
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 95%;
+    margin: auto;
+}
+
+.navbar a
+{
+	color: rgba(128, 0, 128, var(--bs-link-opacity, 1));
+    margin-left: 10px;
+}
+
+hr
+{
+    margin-top: 0px;
+}
+        
+        
+        

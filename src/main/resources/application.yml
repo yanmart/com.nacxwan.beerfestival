@@ -1,0 +1,22 @@
+app:
+  cross-origin: "*"
+
+server:
+  port: 8080
+
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  application:
+    name: com.nacxwan.beerfestival
+
+  datasource:
+    url: "jdbc:mariadb://${DB_HOSTNAME}:3306/beerdb"
+    username: beeruser
+    password: beerpassword
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+      poolName: HikariPoolZZZ
